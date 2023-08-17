@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+html{
+    font-size: 10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+#sinav{
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    width: 60rem;
+    border-radius: 1rem;
+    background-color: rgb(237, 242, 247);
+    box-shadow: 0 0 1rem 0.2rem lightgray;
+}
+.sorualani{
+    padding: 4rem;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+ul li input{    cursor: pointer;}
+ul li label{
+    cursor: pointer;
+}
+#gonder{
+    background-color: #732d91;
+    color: white;
+    display: block;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 700;
+    font-family: inherit;
+    border: none;
+    border-radius: 1rem;
+    padding: 15px;
+}
+#gonder:focus{
+    background-color: white;
+    color: #732d91;
+}
+#newButon{
+    background-color: #732d91;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 700;
+    font-family: inherit;
+    border: none;
+    border-radius: 1rem;
+    padding: 15px;
+    width: 100%;
+
+}
